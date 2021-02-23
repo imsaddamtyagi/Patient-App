@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name = "ExtentReportListener.ExtentReporterNG"/>   
+<listener class-name = "ExtentReportListener.Reporting"/>
+
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="testcases.Records"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

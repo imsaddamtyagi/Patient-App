@@ -1,0 +1,9 @@
+2021-02-23 09:55:33,991 - PatientAppLogs -INFO - Launching Application with Apk version: D:\UTL1364\APK\Drona\Dev\patient_app_22-feb.apk
+2021-02-23 09:55:34,002 - PatientAppLogs -INFO - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-02-23 09:55:39,046 - PatientAppLogs -INFO - Launching Application
+2021-02-23 09:56:14,098 - PatientAppLogs -INFO - Clicked on Skip button to proceed for login
+2021-02-23 09:56:21,460 - PatientAppLogs -INFO - Alert Accepted
+2021-02-23 09:56:25,567 - PatientAppLogs -INFO - Phone number entered
+2021-02-23 09:56:29,948 - PatientAppLogs -INFO - Clicked on Request OTP
+2021-02-23 09:56:59,950 - PatientAppLogs -INFO - OTP entered
+2021-02-23 09:57:05,310 - PatientAppLogs -INFO - Clicked on Verify number
