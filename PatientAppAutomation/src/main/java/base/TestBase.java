@@ -8,7 +8,6 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Alert;
@@ -17,7 +16,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -60,10 +58,10 @@ import io.appium.java_client.remote.MobileCapabilityType;
 				
 		URL url = new URL("http:0.0.0.0:4723/wd/hub");
 		driver = new AndroidDriver<WebElement>(url,caps);
-		 long LoginStartTime = System.nanoTime();	  // To calculate LoginTime.	
-		logger.info("Launching Application with Apk version: "+prop.getProperty("ApkPath"));
+		long LoginStartTime = System.nanoTime();	  // To calculate LoginTime.	
+		logger.info("Launching App, Apk version: "+prop.getProperty("ApkPath"));
 		logger.info("Using Test Data Excel Sheet: "+prop.getProperty("ExcelName"));
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		Thread.sleep(5000);
 		logger.info("Launching Application");
 		
@@ -79,7 +77,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 	       logger.info("Phone number entered");
 		   driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Request OTP\")"))).click();
 		   logger.info("Clicked on Request OTP");
-		   Thread.sleep(30000);
+		   Thread.sleep(45000);
 		   logger.info("OTP entered");
 			/*
 			 * Robot robot = new Robot();
@@ -105,6 +103,64 @@ import io.appium.java_client.remote.MobileCapabilityType;
 			  logger.info("Login Successfull");	 		
 		
 	}
+	
+	public void initToLaunch() throws MalformedURLException, InterruptedException
+	{
+			DesiredCapabilities caps = new DesiredCapabilities();
+			caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
+			caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+			caps.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
+			caps.setCapability("autoAcceptAlerts", true);
+			caps.setCapability(MobileCapabilityType.APP,prop.getProperty("ApkPath")); 
+					
+			URL url = new URL("http:0.0.0.0:4723/wd/hub");
+			driver = new AndroidDriver<WebElement>(url,caps);
+			long LoginStartTime = System.nanoTime();	  // To calculate LoginTime.	
+			logger.info("Launching App, Apk version: "+prop.getProperty("ApkPath"));
+			logger.info("Using Test Data Excel Sheet: "+prop.getProperty("ExcelName"));
+			driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+			Thread.sleep(5000);
+			logger.info("Launching Application");		
+			driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Skip\")"))).click();
+			logger.info("Clicked on Skip button to proceed for login");
+			  WebDriverWait wait = new WebDriverWait(driver,40);
+			  wait.until(ExpectedConditions.alertIsPresent()); 
+			  Alert alert =  driver.switchTo().alert(); alert.accept();
+			  logger.info("Alert Accepted");
+			  long LoginEndTime = System.nanoTime();
+			  long durationLogin = (LoginEndTime - LoginStartTime);
+			  logger.info("Time taken in App Launch in Emulator: "+Duration.ofNanos(durationLogin).toMinutes()+" Minutes");   
+			  Thread.sleep(15000);
+			  logger.info("Launch Successfull");	 	
+	}
+	
+	public void Launch() throws MalformedURLException, InterruptedException
+	{
+		DesiredCapabilities caps = new DesiredCapabilities();
+		caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
+		caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+		caps.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
+		caps.setCapability("autoAcceptAlerts", true);
+		caps.setCapability(MobileCapabilityType.APP,prop.getProperty("ApkPath")); 
+				
+		URL url = new URL("http:0.0.0.0:4723/wd/hub");
+		driver = new AndroidDriver<WebElement>(url,caps);
+		long LoginStartTime = System.nanoTime();	  // To calculate LoginTime.	
+		logger.info("Launching App, Apk version: "+prop.getProperty("ApkPath"));
+		logger.info("Using Test Data Excel Sheet: "+prop.getProperty("ExcelName"));
+		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+		Thread.sleep(5000);
+		logger.info("Launching Application");	
+		
+		  long LoginEndTime = System.nanoTime();
+		  long durationLogin = (LoginEndTime - LoginStartTime);
+		  logger.info("Time taken in App Launch in Emulator: "+Duration.ofNanos(durationLogin).toMinutes()+" Minutes");   
+		  Thread.sleep(15000);
+		  logger.info("Launch Successfull");	 
+		
+	}
+	
+	
 	
 	
 

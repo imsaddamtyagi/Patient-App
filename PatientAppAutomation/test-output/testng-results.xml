@@ -1,135 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="0" failed="0" skipped="1">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-23T09:55:10 IST" name="Default suite" finished-at="2021-02-23T09:58:01 IST" duration-ms="171222">
+  <suite started-at="2021-04-13T15:08:12 IST" name="Suite" finished-at="2021-04-13T15:13:28 IST" duration-ms="316651">
     <groups>
     </groups>
-    <test started-at="2021-02-23T09:55:10 IST" name="Default test" finished-at="2021-02-23T09:58:01 IST" duration-ms="171222">
-      <class name="testcases.CancelAndRescheduleAppointments">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.CancelAndRescheduleAppointments@2a7f1f10]" started-at="2021-02-23T09:55:10 IST" name="setUp" finished-at="2021-02-23T09:58:01 IST" duration-ms="171146" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-RE3DM9I', ip: '192.168.34.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\UTL1364\APK\Drona\Dev\pa..., appPackage: com.drona, autoAcceptAlerts: true, automationName: Appium, databaseEnabled: false, desired: {app: D:\UTL1364\APK\Drona\Dev\pa..., autoAcceptAlerts: true, automationName: Appium, deviceName: Android Emulator, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 5c55fc2a-c86a-4deb-8b57-514326fecd37]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-RE3DM9I', ip: '192.168.34.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\UTL1364\APK\Drona\Dev\pa..., appPackage: com.drona, autoAcceptAlerts: true, automationName: Appium, databaseEnabled: false, desired: {app: D:\UTL1364\APK\Drona\Dev\pa..., autoAcceptAlerts: true, automationName: Appium, deviceName: Android Emulator, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 5c55fc2a-c86a-4deb-8b57-514326fecd37
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at base.TestBase.initialization(TestBase.java:97)
-at testcases.CancelAndRescheduleAppointments.setUp(CancelAndRescheduleAppointments.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+    <test started-at="2021-04-13T15:08:12 IST" name="Test" finished-at="2021-04-13T15:13:28 IST" duration-ms="316651">
+      <class name="testcases.ShareDoctorProfile">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ShareDoctorProfile@5d534f5d]" started-at="2021-04-13T15:08:12 IST" name="setUp" finished-at="2021-04-13T15:10:56 IST" duration-ms="163694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="CancelInClinicAppointment()[pri:1, instance:testcases.CancelAndRescheduleAppointments@2a7f1f10]" started-at="2021-02-23T09:58:01 IST" name="CancelInClinicAppointment" finished-at="2021-02-23T09:58:01 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-RE3DM9I', ip: '192.168.34.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\UTL1364\APK\Drona\Dev\pa..., appPackage: com.drona, autoAcceptAlerts: true, automationName: Appium, databaseEnabled: false, desired: {app: D:\UTL1364\APK\Drona\Dev\pa..., autoAcceptAlerts: true, automationName: Appium, deviceName: Android Emulator, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 5c55fc2a-c86a-4deb-8b57-514326fecd37]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-RE3DM9I', ip: '192.168.34.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\UTL1364\APK\Drona\Dev\pa..., appPackage: com.drona, autoAcceptAlerts: true, automationName: Appium, databaseEnabled: false, desired: {app: D:\UTL1364\APK\Drona\Dev\pa..., autoAcceptAlerts: true, automationName: Appium, deviceName: Android Emulator, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 5c55fc2a-c86a-4deb-8b57-514326fecd37
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at base.TestBase.initialization(TestBase.java:97)
-at testcases.CancelAndRescheduleAppointments.setUp(CancelAndRescheduleAppointments.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="ShareDoctorProfileInClinicTest()[pri:2, instance:testcases.ShareDoctorProfile@5d534f5d]" started-at="2021-04-13T15:10:56 IST" name="ShareDoctorProfileInClinicTest" description="Share Doctor Profile from clinic" finished-at="2021-04-13T15:13:12 IST" duration-ms="136846" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CancelInClinicAppointment -->
-        <test-method is-config="true" signature="TearDown(org.testng.ITestResult)[pri:0, instance:testcases.CancelAndRescheduleAppointments@2a7f1f10]" started-at="2021-02-23T09:58:01 IST" name="TearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1614054481594" status="SKIP">
+        </test-method> <!-- ShareDoctorProfileInClinicTest -->
+        <test-method is-config="true" signature="TearDown(org.testng.ITestResult)[pri:0, instance:testcases.ShareDoctorProfile@5d534f5d]" started-at="2021-04-13T15:13:12 IST" name="TearDown" finished-at="2021-04-13T15:13:28 IST" duration-ms="16051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShareDoctorProfileInClinicTest status=SUCCESS method=ShareDoctorProfile.ShareDoctorProfileInClinicTest()[pri:2, instance:testcases.ShareDoctorProfile@5d534f5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- testcases.CancelAndRescheduleAppointments -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testcases.ShareDoctorProfile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

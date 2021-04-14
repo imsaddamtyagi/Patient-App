@@ -2,14 +2,16 @@
 <suite name="Suite">
 
 <listeners>
-<listener class-name = "ExtentReportListener.ExtentReporterNG"/>   
-<listener class-name = "ExtentReportListener.Reporting"/>
+    <listener class-name="com.qa.reports.ListenerClass" /> 
 
 </listeners>
 
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
-    <class name="testcases.Records"/> 
-    </classes>
+       <class name="testcases.ShareDoctorProfile"/> 
+  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
+
+

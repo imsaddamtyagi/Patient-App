@@ -16,6 +16,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.annotations.FrameworkAnnotation;
+import com.enums.CategoryType;
+import com.qa.reports.ExtentLogger;
+
 import base.TestBase;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
@@ -26,6 +31,14 @@ public class BookAnAppointment extends TestBase {
 	static long startTime;
 	static long endTime;
 	
+    String DocForInClinic ="Pargat";   
+    String DocInitialsClinic= "#971632";
+    String SlotForInClinic="10:00 AM";
+    
+    String DocForVideo="Pargat";
+    String DocInitialsVideo="#971632";
+    String SlotForVideo="11:00 AM";
+	
 	@BeforeMethod      
 	public void setUp() throws MalformedURLException, InterruptedException   
 	{
@@ -33,105 +46,108 @@ public class BookAnAppointment extends TestBase {
 	initialization();      
 		} 
 	
+
 	
-	@Test(priority=1,enabled=false)
-	public void LoginInApp()
-	{
-		logger.info("Login Test Passed");
-	}
-	
-		
-	@Test(priority=2,enabled=false)
+	@FrameworkAnnotation(author= {"Husain"},category = CategoryType.BookAnAppointment)	
+	@Test(priority=1,enabled=true,description="Book In-clinic Appointment")
 	public void BookInClinicAppointment() throws InterruptedException, AWTException, IOException
 	{
-		logger.info("Booking an In clinic appointment");
+		ExtentLogger.pass("Booking an In clinic appointment");
 		  List<WebElement> buttons = driver.findElementsByClassName("android.widget.TextView");
 		  for(WebElement button : buttons){
 		  if(button.getText().trim().equals("Add Doctor")){
 		  button.click(); 
-		  logger.info("Add Doctor button clicked..."); 
-		  Thread.sleep(3000);
+		  ExtentLogger.pass("Add Doctor button clicked..."); 
+		  Thread.sleep(5000);
 		  }}
 		  		 
-		  logger.info("Searching Doctor");
-       String Doc="Praveen Chauhan";
+	    ExtentLogger.pass("Searching Doctor");
+        String Doc=DocForInClinic;
         MobileElement mobileElement=(MobileElement)driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.EditText"));       
         mobileElement.click();
+        mobileElement.clear();
         Actions action = new Actions(driver);
         action.sendKeys(Doc).perform();
         
-		    WebDriverWait wait3 = new WebDriverWait(driver,20);
-		    WebElement ActualAcc=  wait3.until(ExpectedConditions.elementToBeClickable(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/androidx.viewpager.widget.ViewPager/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView[1]")));
+        Thread.sleep(7000);
+        
+		    WebDriverWait wait3 = new WebDriverWait(driver,30);
+		    WebElement ActualAcc=  wait3.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text='"+DocInitialsClinic+"']")));
 		    ActualAcc.click();
-		    logger.info("Doctor Selected");
-			Thread.sleep(20000);
+		    ExtentLogger.pass("Doctor Selected");
+			Thread.sleep(10000);
 			  
-			  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"07:10 PM\")"))).click();
-			  logger.info("Time Slot Selected");
+			  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+SlotForInClinic+"\")"))).click();
+			  ExtentLogger.pass("Time Slot Selected");    
 			  Thread.sleep(5000);
 			  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Mohd Husain\")"))).click();	
-			  logger.info("Patient Selected");
+			  ExtentLogger.pass("Patient Selected");
 			  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Submit\")"))).click();	 
 			  Thread.sleep(5000);
-			  logger.info("In clinic appointment successfull");
+			  ExtentLogger.pass("In clinic appointment successfull");
+		
+
 	}
 	
 	
-	
-	@Test(priority=3,enabled=true)
+	@FrameworkAnnotation(author= {"Husain"},category = CategoryType.BookAnAppointment)	
+	@Test(priority=2,enabled=true,description="Book video consultation")
 	public void BookVideoConsultation() throws InterruptedException, AWTException, IOException
 	{
-          logger.info("Booking video consultation");
+          ExtentLogger.pass("Booking video consultation");
 		  List<WebElement> buttons = driver.findElementsByClassName("android.widget.TextView");
 		  for(WebElement button : buttons){
 		  if(button.getText().trim().equals("Add Doctor")){
 		        button.click(); 
-		        logger.info("Add Doctor button clicked...");
+		        ExtentLogger.pass("Add Doctor button clicked...");
 				  Thread.sleep(3000);
 		        }}
 		  		 
-		  logger.info("Searching Doctor");       
+		  ExtentLogger.pass("Searching Doctor");       
     
-            String Doc="Praveen ";
+            String Doc=DocForVideo;
             MobileElement mobileElement=(MobileElement)driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.EditText"));       
             mobileElement.click();
             mobileElement.clear();
+            Thread.sleep(3000);
             Actions actions = new Actions(driver);
             actions.sendKeys(Doc).perform();
 
-    	    
+            Thread.sleep(8000);
 		    WebDriverWait wait3 = new WebDriverWait(driver,20);
-		    WebElement ActualAcc=  wait3.until(ExpectedConditions.elementToBeClickable(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/androidx.viewpager.widget.ViewPager/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView[1]")));
+		    WebElement ActualAcc=  wait3.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text='"+DocInitialsVideo+"']")));
 		    ActualAcc.click();
-		    logger.info("Doctor Selected");
+		    ExtentLogger.pass("Doctor Selected");
 			Thread.sleep(20000);
-			logger.info("Scrolling down until video consultation slots are visible");	
+			ExtentLogger.pass("Scrolling down until video consultation slots are visible");	
             TestUtil.ScrollingUntilEndOfPage();
-			logger.info("Scrolling down finished");
+			ExtentLogger.pass("Scrolling down finished");
 			
 	boolean a= driver.findElements(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Video Consultation\")"))).size()>0;
 	if(a==true) 
 	{  
-		  logger.info("Video consultation is available");
-		  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"04:35s PM\")"))).click();	
-		  logger.info("Slot Selected");
+		  ExtentLogger.pass("Video consultation is available");
+		  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+SlotForVideo+"\")"))).click();	
+		  ExtentLogger.pass("Slot Selected");     
 		  Thread.sleep(5000);			
 		  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Mohd Husain\")"))).click();	 
-		  logger.info("Patient Selected");
+		  ExtentLogger.pass("Patient Selected");
     	  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Submit\")"))).click();	
-    	  logger.info("Submit button clicked");
+    	  ExtentLogger.pass("Submit button clicked");
     	  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Apply Offer\")"))).click();	 
-    	  logger.info("Selecting offer");
+    	  ExtentLogger.pass("Selecting offer");
     	  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Apply\")"))).click();	
     	  Thread.sleep(3000);
-    	  logger.info("Offer applied");
+    	  ExtentLogger.pass("Offer applied");
     	  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Confirm & Pay\")"))).click();	 
     	  Thread.sleep(5000);
-    	  logger.info("Video consultation is booked successfully");
+    	  ExtentLogger.pass("Confirm and pay is clicked");
+		  ExtentLogger.pass("Video consultation booked successfull");
+
 		
 	 } else 
 	 {	 		 
-		 logger.info("No Video consultation available for this doctor");
+		 ExtentLogger.pass("No Video consultation available for this doctor");
 		 Assert.fail("Marking this test failed");
 		 }	
 					
@@ -154,21 +170,25 @@ public class BookAnAppointment extends TestBase {
 	     if (testResult.getStatus() == ITestResult.FAILURE)
 	     {
 	    	 String FailedTestName= testResult.getMethod().getMethodName();
-	         logger.info("Failed TestName: "+FailedTestName);
+	         ExtentLogger.pass("Failed TestName: "+FailedTestName);
 	         TestUtil.takeScreenshotAtEndOfTest("Failed"+FailedTestName);
+	         ExtentLogger.fail("Test Failed: "+FailedTestName);
 	     }
 	     else if (testResult.getStatus() == ITestResult.SUCCESS) 
 	         {
 	        	 String PassedTestName= testResult.getMethod().getMethodName();
-	        	 logger.info("Passed TestName: "+PassedTestName);
+	        	 ExtentLogger.pass("Passed TestName: "+PassedTestName);
 		         TestUtil.takeScreenshotAtEndOfTest("Passed"+PassedTestName);
 	         }	
 	     
 	     endTime= System.nanoTime();
 	     long duration = (endTime - startTime);
-	     logger.info("Total Time taken by test: "+Duration.ofNanos(duration).toMinutes()+" Minutes");   
+	     ExtentLogger.pass("Total Time taken by test: "+Duration.ofNanos(duration).toMinutes()+" Minutes");   
          Thread.sleep(5000);
-         logger.info("Ending Session");
+         ExtentLogger.pass("Ending Session");
+    	 ExtentLogger.pass("\n");
+		 ExtentLogger.pass("\n");
+		 ExtentLogger.pass("\n");
 	     driver.quit();  
 	    }
     

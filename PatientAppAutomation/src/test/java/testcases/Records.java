@@ -16,6 +16,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.annotations.FrameworkAnnotation;
+import com.enums.CategoryType;
+import com.qa.reports.ExtentLogger;
+
 import base.TestBase;
 import io.appium.java_client.MobileBy;
 import util.TestUtil;
@@ -33,37 +38,44 @@ public class Records extends TestBase {
 		initialization();     
 		} 
 	
-	
-	@Test(priority=1,dataProvider="getDataForPrescription")
+	@FrameworkAnnotation(author= {"Husain"},category = CategoryType.Records)
+	@Test(priority=1,dataProvider="getDataForPrescription",description="Add Prescription in Records Module")
 	public void AddPrescription(String Title, String Date) throws InterruptedException, AWTException
 	{
-		logger.info("Adding Prescription: '"+Title+"' with date: "+Date);
+		ExtentLogger.pass("Adding Prescription: '"+Title+"' with date: "+Date);
 		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Records\")"))).click();
-		logger.info("Clicked on Records menu");
+		ExtentLogger.pass("Clicked on Records menu");
 		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Prescriptions\")"))).click();
-		logger.info("Clicked on prescriptions");
+		ExtentLogger.pass("Clicked on prescriptions");
 		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"+ Add\")"))).click();
-		logger.info("Clicked on Add Button");
+		ExtentLogger.pass("Clicked on Add Button");
 		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Upload from gallery\")"))).click();
-		logger.info("Clicked on Upload from gallery");
+		ExtentLogger.pass("Clicked on Upload from gallery");
 
 		  WebDriverWait wait = new WebDriverWait(driver,20);
 		  wait.until(ExpectedConditions.alertIsPresent()); 
 		  Alert alert =  driver.switchTo().alert(); 
 		  alert.accept();
-		  logger.info("Alert Accepted");
-		  	  
+		  ExtentLogger.pass("Alert Accepted");
+		  	  Thread.sleep(3000);
 			driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"images\")"))).click();
-			logger.info("Clicked on Images folder in mobile gallery");			
+			ExtentLogger.pass("Clicked on Images folder in mobile gallery");			
 			// get all images and then select index
 			List<WebElement> pic= driver.findElements(By.className("android.view.ViewGroup"));
+			if(pic.get(1).isSelected())
+			{
 			pic.get(1).click(); // click based on index of image
-
+			ExtentLogger.pass("Image selecetd");
+			}
+			else
+			{
+				pic.get(2).click(); // click based on index of image
+				ExtentLogger.pass("Second Image selecetd");
+			}
 			
-			Thread.sleep(15000);
-            logger.info("Image selecetd");
+			Thread.sleep(10000);
 			driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.widget.EditText")).sendKeys(Title);
-            logger.info("Priscription title entered: "+Title);
+            ExtentLogger.pass("Priscription title entered: "+Title);
 
 			// Getting Today from date.
 			  String str= Date.replaceAll("[^\\d]","").trim(); // Replace values that are not Digits.
@@ -71,61 +83,73 @@ public class Records extends TestBase {
               if(str.substring(0,1).equals(zero)) // If first digit of date is 0.
               {
       	    	driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[3]/android.widget.ImageView\r\n"+"")).click();
-                logger.info("Clicked on date picker to add date in prescription");
+                ExtentLogger.pass("Clicked on date picker to add date in prescription");
       	    	Thread.sleep(3000);   
   			    String SecondDigit =str.substring(1,2);  // Second digit from todays's date
     	  	    driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+SecondDigit+"\")"))).click();     	  
-                logger.info("Date entered: "+SecondDigit);
+                ExtentLogger.pass("Date entered: "+SecondDigit);
 
               }
               else
               {
         	    	driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[3]/android.widget.ImageView\r\n"+"")).click();
-                    logger.info("Clicked on date picker to add date in prescription");
+                    ExtentLogger.pass("Clicked on date picker to add date in prescription");
         	    	Thread.sleep(3000);   
       			    String TwoDigit =str.substring(0,2);  // First digit and second digit from todays's date
         	  	    driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+TwoDigit+"\")"))).click();     	            	  
-                    logger.info("Date entered: "+TwoDigit);
+                    ExtentLogger.pass("Date entered: "+TwoDigit);
               }
             	  
    	       Thread.sleep(3000);
 			driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Submit\")"))).click();
-			logger.info("Submit button clicked");
-			logger.info("Prescription Added: '"+Title+"' with date: "+Date);
+			ExtentLogger.pass("Submit button clicked");
+			ExtentLogger.pass("Prescription Added: '"+Title+"' with date: "+Date);
+		
+
 	}
 	
 	
 	
-	
-	@Test(priority=2,dataProvider="getDataForLabReports")
-	public void AddLabReports(String Title, String Date) throws InterruptedException, AWTException
+	@FrameworkAnnotation(author= {"Husain"},category = CategoryType.Records)
+	@Test(priority=2,dataProvider="getDataForLabReports",description = "Add Lab Report in Record Module")
+	public void AddLabReport(String Title, String Date) throws InterruptedException, AWTException
 	{
-		logger.info("Adding Lab Report: '"+Title+"' with date: "+Date);
+		ExtentLogger.pass("Adding Lab Report: '"+Title+"' with date: "+Date);
 		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Records\")"))).click();
-		logger.info("Clicked on Records menu");
+		ExtentLogger.pass("Clicked on Records menu");
 		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Lab Reports\")"))).click();
-		logger.info("Clicked on Lab Repotrs");
+		ExtentLogger.pass("Clicked on Lab Repotrs");
 		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"+ Add\")"))).click();
-		logger.info("Clicked on Add button");
+		ExtentLogger.pass("Clicked on Add button");
 		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Upload from gallery\")"))).click();
-		logger.info("Clicked on Upload image from gallery");
+		ExtentLogger.pass("Clicked on Upload image from gallery");
 
 		  WebDriverWait wait = new WebDriverWait(driver,20);
 		  wait.until(ExpectedConditions.alertIsPresent()); 
 		  Alert alert =  driver.switchTo().alert(); 
 		  alert.accept();
-		  logger.info("Alert Accepted");
+		  ExtentLogger.pass("Alert Accepted");
 		  
 			driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"images\")"))).click();
-			logger.info("Images folder clicked in phone gallery");
+			ExtentLogger.pass("Images folder clicked in phone gallery");
 			// get all images and then select index
 			List<WebElement> pic= driver.findElements(By.className("android.view.ViewGroup"));
+			if(pic.get(1).isSelected())
+			{
 			pic.get(1).click(); // click based on index of image
-			Thread.sleep(15000);
-			logger.info("Image Selected from mobile gallery");
+			ExtentLogger.pass("Image selecetd");
+			}
+			else
+			{
+				pic.get(2).click(); // click based on index of image
+				ExtentLogger.pass("Second Image selecetd");
+			}
+			ExtentLogger.pass("Image Selected from mobile gallery");
+			Thread.sleep(10000);
+			
 	
 		   driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.widget.EditText")).sendKeys(Title);
-		   logger.info("Lab Report title entered: "+Title);
+		   ExtentLogger.pass("Lab Report title entered: "+Title);
 		   
 			// Getting Today from date.
 		   String str= Date.replaceAll("[^\\d]","").trim(); // Replace values that are not Digits.
@@ -133,26 +157,27 @@ public class Records extends TestBase {
            if(str.substring(0,1).equals(zero)) // If first digit of date is 0.
            {  
 		   driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[3]/android.widget.ImageView\r\n"+ "")).click();
-		   logger.info("Clicked on Date Picker to add date in Lab Report");
+		   ExtentLogger.pass("Clicked on Date Picker to add date in Lab Report");
 		   Thread.sleep(3000); 
            String SecondDigit =str.substring(1,2);  // Second digit from todays's date
 	       driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+SecondDigit+"\")"))).click();
-	       logger.info("Date entered: "+SecondDigit);
+	       ExtentLogger.pass("Date entered: "+SecondDigit);
            }
            else
            {
     		   driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[3]/android.widget.ImageView\r\n"+ "")).click();
-    		   logger.info("Clicked on Date Picker to add date in Lab Report");
+    		   ExtentLogger.pass("Clicked on Date Picker to add date in Lab Report");
     		   Thread.sleep(3000); 
  			   String TwoDigit =str.substring(0,2);  // First digit and second digit from todays's date
     	       driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+TwoDigit+"\")"))).click();      	   
-    	       logger.info("Date entered: "+TwoDigit);
+    	       ExtentLogger.pass("Date entered: "+TwoDigit);
            }
 	       Thread.sleep(4000);
 	//	   driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.widget.EditText")).sendKeys(Date);
 		   driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Submit\")"))).click();
-		   logger.info("Submit button clicked");
-		   logger.info("Lab Report added: '"+Title+"' with date: "+Date);  
+		   ExtentLogger.pass("Submit button clicked");
+		   ExtentLogger.pass("Lab Report added: '"+Title+"' with date: "+Date);  
+		   ExtentLogger.pass("Lab Report Added: '"+Title+"' with date: "+Date);
 
 	}
 	
@@ -180,21 +205,25 @@ public class Records extends TestBase {
 	     if (testResult.getStatus() == ITestResult.FAILURE)
 	     {
 	    	 String FailedTestName= testResult.getMethod().getMethodName();
-	    	 logger.info("Failed test: "+FailedTestName);
+	    	 ExtentLogger.pass("Failed test: "+FailedTestName);
 	         TestUtil.takeScreenshotAtEndOfTest("Failed"+FailedTestName);
+	         ExtentLogger.fail("Test Failed: "+FailedTestName);
 	     }
 	     else if (testResult.getStatus() == ITestResult.SUCCESS) 
 	         {
 	        	 String PassedTestName= testResult.getMethod().getMethodName();
-	        	 logger.info("Passed Test name: "+PassedTestName);
+	        	 ExtentLogger.pass("Passed Test name: "+PassedTestName);
 		         TestUtil.takeScreenshotAtEndOfTest("Passed"+PassedTestName);
 	         }	
 	     
 	     endTime= System.nanoTime();
 	     long duration = (endTime - startTime);
-	     logger.info("Time taken by test: "+Duration.ofNanos(duration).toMinutes()+" Minutes");   
-		 logger.info("Ending Session after Test");
-         Thread.sleep(5000);
+	     ExtentLogger.pass("Time taken by test: "+Duration.ofNanos(duration).toMinutes()+" Minutes");   
+		 ExtentLogger.pass("Ending Session after Tests");
+		 Thread.sleep(5000);
+		 ExtentLogger.pass("\n");
+		 ExtentLogger.pass("\n");
+		 ExtentLogger.pass("\n");   
 	     driver.quit();  
 	    }
 	    	   

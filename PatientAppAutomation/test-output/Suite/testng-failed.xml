@@ -2,18 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="ExtentReportListener.ExtentReporterNG"/>
-    <listener class-name="ExtentReportListener.Reporting"/>
+    <listener class-name="com.qa.reports.ListenerClass"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.Records">
+      <class name="testcases.AboutDrona">
         <methods>
-          <include name="AddPrescription" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="TearDown"/>
+          <include name="VerifyPrivacyPolicy"/>
         </methods>
-      </class> <!-- testcases.Records -->
+      </class> <!-- testcases.AboutDrona -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
