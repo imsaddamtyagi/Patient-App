@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.AboutDrona">
+      <class name="testcases.ShareDoctorProfile">
         <methods>
+          <include name="ShareDoctorProfileTest"/>
           <include name="setUp"/>
           <include name="TearDown"/>
-          <include name="VerifyPrivacyPolicy"/>
         </methods>
-      </class> <!-- testcases.AboutDrona -->
+      </class> <!-- testcases.ShareDoctorProfile -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

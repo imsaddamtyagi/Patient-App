@@ -1,32 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-13T15:08:12 IST" name="Suite" finished-at="2021-04-13T15:13:28 IST" duration-ms="316651">
+  <suite started-at="2021-04-15T11:47:50 IST" name="Suite" finished-at="2021-04-15T11:54:23 IST" duration-ms="393392">
     <groups>
     </groups>
-    <test started-at="2021-04-13T15:08:12 IST" name="Test" finished-at="2021-04-13T15:13:28 IST" duration-ms="316651">
-      <class name="testcases.ShareDoctorProfile">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ShareDoctorProfile@5d534f5d]" started-at="2021-04-13T15:08:12 IST" name="setUp" finished-at="2021-04-13T15:10:56 IST" duration-ms="163694" status="PASS">
+    <test started-at="2021-04-15T11:47:50 IST" name="Test" finished-at="2021-04-15T11:54:23 IST" duration-ms="393392">
+      <class name="testcases.Location">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Location@5d534f5d]" started-at="2021-04-15T11:47:50 IST" name="setUp" finished-at="2021-04-15T11:50:30 IST" duration-ms="159739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ShareDoctorProfileInClinicTest()[pri:2, instance:testcases.ShareDoctorProfile@5d534f5d]" started-at="2021-04-13T15:10:56 IST" name="ShareDoctorProfileInClinicTest" description="Share Doctor Profile from clinic" finished-at="2021-04-13T15:13:12 IST" duration-ms="136846" status="PASS">
+        <test-method signature="SetCurrentLocation()[pri:1, instance:testcases.Location@5d534f5d]" started-at="2021-04-15T11:50:30 IST" name="SetCurrentLocation" description="Set Current Location at Home Page" finished-at="2021-04-15T11:50:44 IST" duration-ms="14418" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ShareDoctorProfileInClinicTest -->
-        <test-method is-config="true" signature="TearDown(org.testng.ITestResult)[pri:0, instance:testcases.ShareDoctorProfile@5d534f5d]" started-at="2021-04-13T15:13:12 IST" name="TearDown" finished-at="2021-04-13T15:13:28 IST" duration-ms="16051" status="PASS">
+        </test-method> <!-- SetCurrentLocation -->
+        <test-method is-config="true" signature="TearDown(org.testng.ITestResult)[pri:0, instance:testcases.Location@5d534f5d]" started-at="2021-04-15T11:50:44 IST" name="TearDown" finished-at="2021-04-15T11:51:04 IST" duration-ms="20087" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ShareDoctorProfileInClinicTest status=SUCCESS method=ShareDoctorProfile.ShareDoctorProfileInClinicTest()[pri:2, instance:testcases.ShareDoctorProfile@5d534f5d] output={null}]]]>
+                <![CDATA[[TestResult name=SetCurrentLocation status=SUCCESS method=Location.SetCurrentLocation()[pri:1, instance:testcases.Location@5d534f5d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- testcases.ShareDoctorProfile -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Location@5d534f5d]" started-at="2021-04-15T11:51:04 IST" name="setUp" finished-at="2021-04-15T11:53:43 IST" duration-ms="158536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SetManualLocation()[pri:2, instance:testcases.Location@5d534f5d]" started-at="2021-04-15T11:53:43 IST" name="SetManualLocation" description="Set Location manually" finished-at="2021-04-15T11:54:13 IST" duration-ms="29906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetManualLocation -->
+        <test-method is-config="true" signature="TearDown(org.testng.ITestResult)[pri:0, instance:testcases.Location@5d534f5d]" started-at="2021-04-15T11:54:13 IST" name="TearDown" finished-at="2021-04-15T11:54:23 IST" duration-ms="10651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SetManualLocation status=SUCCESS method=Location.SetManualLocation()[pri:2, instance:testcases.Location@5d534f5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.Location -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
