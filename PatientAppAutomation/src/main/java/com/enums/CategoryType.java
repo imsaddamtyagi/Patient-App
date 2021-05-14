@@ -3,7 +3,7 @@ package com.enums;
 public enum CategoryType {
 	
 	
-	AddFamilyMember,
+	FamilyMemberAndProfilePic,
 	BookAnAppointment,
 	CancelAndRescheduleAppointment,
 	Notification,
@@ -20,4 +20,5 @@ public enum CategoryType {
 	JoinVideoConsultation,
 	NetworkStatus,
 	ShareDoctorProfile,
+	VerifyPatientEmail,
 }

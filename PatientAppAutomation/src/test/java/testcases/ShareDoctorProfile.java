@@ -26,11 +26,11 @@ public class ShareDoctorProfile extends TestBase {
 	static long startTime;
 	static long endTime;
 	
-    String DocForInClinic ="Pargat";   
-    String DocCode =  "#971632";
+    String DocForInClinic ="Simanto";   
+    String DocCode =  "IDrts-987";
 
-	  String ClinicHospital="Samuel";
-	  String ClinicRealName="Samuel Hospital";
+	  String ClinicHospital="Fortune Hospital";
+	  String ClinicRealName="Fortune Hospital";
 
 
 	@BeforeMethod      
@@ -69,8 +69,8 @@ public class ShareDoctorProfile extends TestBase {
 	    ExtentLogger.pass("Doctor Selected");
 	    Thread.sleep(7000);
 	    
-		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Dr Pargat Singh\")"))).click();	
-	    ExtentLogger.pass("Doctor Profile Selected");	    
+		driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+DocForInClinic+"\")"))).click();	
+	    ExtentLogger.pass("Doctor Profile Selected");	  
 	    driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[6]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ImageView")).click();
 	    ExtentLogger.pass("Share Button Clicked");
 	

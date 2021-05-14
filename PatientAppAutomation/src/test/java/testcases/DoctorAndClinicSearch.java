@@ -30,11 +30,11 @@ public class DoctorAndClinicSearch extends TestBase {
 	static long startTime;
 	static long endTime;
 	
-	  String DocForInClinic ="Prav";
-	  String DocInitials= "PC";
+	  String DocForInClinic ="Simanto";
+	  String DocInitials= "IDrts-987";
 	  
-	  String ClinicHospital="Paras";
-	  String ClinicRealName="Paras Hospital Gurgaon";
+	  String ClinicHospital="fortune hospital";
+	  String ClinicRealName="fortune hospital";
 
 	
 
@@ -46,7 +46,7 @@ public class DoctorAndClinicSearch extends TestBase {
 		} 
 	
 	@FrameworkAnnotation(author= {"Husain"},category = CategoryType.DoctorAndClinicSearch)
-	@Test(priority=1,enabled=true,description="Verify Doctor Search")
+	@Test(priority=1,enabled=false,description="Verify Doctor Search")
 	public void VerifyDoctorSearch() throws InterruptedException 
 	{
 	
@@ -102,7 +102,7 @@ public class DoctorAndClinicSearch extends TestBase {
     Actions action = new Actions(driver);
     action.sendKeys(Doc).perform();
     
-    Thread.sleep(15000);
+    Thread.sleep(20000);
     
     List<WebElement> buttons1 = driver.findElements(By.className("android.widget.TextView"));
 	  for(WebElement button1 : buttons1){
@@ -112,7 +112,7 @@ public class DoctorAndClinicSearch extends TestBase {
 	  ExtentLogger.pass("Clinic Button Clicked"); 
 	  }}
     
-	  Thread.sleep(10000);
+	  Thread.sleep(15000);
 	  
 	  
 	  List<WebElement> buttons2 = driver.findElementsByClassName("android.widget.TextView");

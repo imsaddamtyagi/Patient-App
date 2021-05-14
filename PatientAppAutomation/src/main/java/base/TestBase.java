@@ -99,7 +99,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 			  long LoginEndTime = System.nanoTime();
 			  long durationLogin = (LoginEndTime - LoginStartTime);
 			  logger.info("Time taken in App Launch and login in Emulator: "+Duration.ofNanos(durationLogin).toMinutes()+" Minutes");   
-			  Thread.sleep(15000);
+			  Thread.sleep(20000);
 			  logger.info("Login Successfull");	 		
 		
 	}

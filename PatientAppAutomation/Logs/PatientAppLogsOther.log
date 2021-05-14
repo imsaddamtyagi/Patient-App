@@ -1,669 +1,694 @@
-2021-03-30 20:51:05,712 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientApp_25_03_latest.apk
-2021-03-30 20:51:05,717 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-03-30 20:51:10,752 [main] INFO PatientAppLogs - Launching Application
-2021-03-30 20:51:48,978 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-03-30 20:51:56,826 [main] INFO PatientAppLogs - Alert Accepted
-2021-03-30 20:51:59,866 [main] INFO PatientAppLogs - Phone number entered
-2021-03-30 20:52:06,005 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-03-30 20:52:51,009 [main] INFO PatientAppLogs - OTP entered
-2021-03-30 20:52:55,226 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-03-30 20:53:02,745 [main] INFO PatientAppLogs - Alert Accepted
-2021-03-30 20:53:02,748 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-03-30 20:53:17,752 [main] INFO PatientAppLogs - Login Successfull
-2021-03-30 20:55:17,331 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientApp_25_03_latest.apk
-2021-03-30 20:55:17,335 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-03-30 20:55:22,357 [main] INFO PatientAppLogs - Launching Application
-2021-03-30 20:56:02,377 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-03-30 20:56:10,275 [main] INFO PatientAppLogs - Alert Accepted
-2021-03-30 20:56:14,280 [main] INFO PatientAppLogs - Phone number entered
-2021-03-30 20:56:18,265 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-03-30 20:57:03,266 [main] INFO PatientAppLogs - OTP entered
-2021-03-30 20:57:07,576 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-03-30 20:57:15,854 [main] INFO PatientAppLogs - Alert Accepted
-2021-03-30 20:57:15,856 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-03-30 20:57:30,860 [main] INFO PatientAppLogs - Login Successfull
-2021-03-30 20:58:06,201 [main] INFO PatientAppLogs - Taking Screenshot
-2021-03-30 20:58:09,778 [main] INFO PatientAppLogs - Screenshot captured
-2021-03-31 17:24:31,038 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientApp_25_03_latest.apk
-2021-03-31 17:24:31,085 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-03-31 17:24:36,122 [main] INFO PatientAppLogs - Launching Application
-2021-03-31 17:25:12,148 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-03-31 17:25:18,364 [main] INFO PatientAppLogs - Alert Accepted
-2021-03-31 17:25:18,365 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-03-31 17:25:33,366 [main] INFO PatientAppLogs - Launch Successfull
-2021-03-31 17:25:44,983 [main] INFO PatientAppLogs - Taking Screenshot
-2021-03-31 17:25:46,221 [main] INFO PatientAppLogs - Screenshot captured
-2021-03-31 17:28:04,078 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientApp_25_03_latest.apk
-2021-03-31 17:28:04,090 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-03-31 17:28:09,113 [main] INFO PatientAppLogs - Launching Application
-2021-03-31 17:28:42,939 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-03-31 17:28:49,293 [main] INFO PatientAppLogs - Alert Accepted
-2021-03-31 17:28:49,294 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-03-31 17:29:04,296 [main] INFO PatientAppLogs - Launch Successfull
-2021-03-31 17:29:15,787 [main] INFO PatientAppLogs - Taking Screenshot
-2021-03-31 17:29:16,833 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 11:57:35,631 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 11:57:35,675 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 11:57:40,698 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 11:58:16,320 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 11:58:23,965 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 11:58:28,930 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 11:58:32,862 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 11:59:17,864 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 11:59:21,802 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 11:59:29,114 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 11:59:29,114 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 11:59:44,117 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 12:01:54,521 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 12:01:54,528 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 12:01:59,599 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 12:16:35,119 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 12:16:35,124 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 12:16:40,147 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 12:17:16,217 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 12:17:23,455 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 12:17:27,805 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 12:17:32,367 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 12:18:17,371 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 12:18:21,792 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 12:18:28,641 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 12:18:28,642 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 12:18:43,645 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 12:21:44,285 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 12:21:44,291 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 12:21:49,321 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 12:22:35,877 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 12:22:42,943 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 12:22:47,769 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 12:22:50,076 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 12:23:35,079 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 12:23:39,876 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 12:23:47,307 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 12:23:47,310 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-12 12:24:02,314 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 13:22:40,224 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 13:22:40,234 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 13:22:45,297 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 13:23:23,402 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 13:23:31,060 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:23:34,537 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 13:23:40,418 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 13:24:25,420 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 13:24:29,343 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 13:24:35,373 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:24:35,374 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 13:24:50,393 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 13:30:07,397 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 13:30:07,402 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 13:30:12,424 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 13:30:46,864 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 13:30:53,325 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:30:57,921 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 13:31:01,166 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 13:31:46,168 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 13:31:50,564 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 13:31:57,625 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:31:57,626 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 13:32:12,627 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 13:39:38,414 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 13:39:38,426 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 13:39:43,446 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 13:40:20,812 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 13:40:27,774 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:40:32,397 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 13:40:35,329 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 13:41:20,331 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 13:41:24,296 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 13:41:31,456 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:41:31,457 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 13:41:46,473 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 13:43:05,980 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 13:43:05,993 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 13:43:11,032 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 13:49:20,153 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 13:49:20,161 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 13:49:25,186 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 13:50:01,185 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 13:50:08,881 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:50:11,016 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 13:50:17,188 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 13:51:02,192 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 13:51:05,890 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 13:51:13,743 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:51:13,743 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 13:51:28,745 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 13:52:55,842 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 13:52:55,843 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 13:53:00,857 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 13:53:58,619 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 13:53:58,624 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 13:54:03,638 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 13:56:41,437 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 13:56:41,446 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 13:56:46,484 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 13:57:24,216 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 13:57:30,517 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:57:34,544 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 13:57:38,144 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 13:58:23,147 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 13:58:27,329 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 13:58:34,481 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 13:58:34,483 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 13:58:49,484 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 13:58:54,705 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 13:58:56,210 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 14:00:02,950 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:00:02,957 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:00:07,978 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:00:50,511 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:00:50,512 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:00:55,524 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:01:31,724 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:01:37,842 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:02:27,220 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:02:27,231 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:02:32,259 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:04:38,316 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:04:38,323 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:04:43,345 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:05:20,521 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:05:27,249 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:05:31,293 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 14:05:35,701 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 14:06:20,703 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 14:06:25,016 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 14:06:31,510 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:06:31,566 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 14:06:46,574 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 14:07:06,448 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 14:07:07,799 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 14:07:33,661 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:07:33,662 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:07:38,677 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:08:15,043 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:08:21,564 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:08:26,770 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 14:08:29,999 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 14:09:15,000 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 14:09:20,085 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 14:09:26,889 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:09:26,890 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 14:09:41,910 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 14:10:16,609 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 14:10:18,092 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 14:10:45,628 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:10:45,631 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:10:50,653 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:11:28,481 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:11:35,450 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:11:40,455 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 14:11:42,961 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 14:12:27,962 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 14:12:33,056 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 14:12:39,268 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:12:39,298 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 14:12:54,301 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 14:15:06,111 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 14:15:09,468 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 14:15:32,139 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:15:32,140 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:15:37,181 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:16:16,439 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:16:22,534 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:16:27,896 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 14:16:30,494 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 14:17:15,496 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 14:17:20,031 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 14:17:26,433 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:17:26,434 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 14:17:41,436 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 14:24:29,971 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 14:24:33,157 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 14:25:08,651 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:25:08,652 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:25:13,672 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:28:16,824 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:28:16,834 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:28:21,878 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:28:59,219 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:29:08,083 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:29:11,665 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 14:29:17,049 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 14:30:02,051 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 14:30:06,558 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 14:30:13,794 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:30:13,796 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 14:30:28,798 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 14:32:54,221 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:32:54,230 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:32:59,251 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:33:36,579 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:33:44,292 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:33:49,123 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 14:33:52,771 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 14:34:37,773 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 14:34:40,878 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 14:34:48,868 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:34:48,913 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 14:35:03,915 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 14:35:51,098 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 14:36:19,665 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 14:36:48,630 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:36:48,630 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:36:53,643 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:37:42,099 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:37:42,101 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:37:47,112 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:38:22,293 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:38:29,540 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:38:29,540 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-04-12 14:38:44,543 [main] INFO PatientAppLogs - Launch Successfull
-2021-04-12 14:38:56,124 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 14:38:57,135 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 14:39:22,562 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:39:22,562 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:39:27,581 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:40:04,792 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:40:11,625 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:40:16,259 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 14:40:19,864 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 14:41:04,866 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 14:41:08,617 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 14:41:15,646 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:41:15,647 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 14:41:30,652 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 14:42:34,601 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 14:42:36,663 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 14:45:08,372 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 14:45:08,380 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 14:45:13,404 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 14:45:48,770 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 14:45:55,064 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:46:00,499 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 14:46:02,540 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 14:46:47,542 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 14:46:51,525 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 14:46:57,182 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 14:46:57,183 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 14:47:12,185 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 14:48:54,154 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 14:52:50,109 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 15:51:48,109 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 15:51:48,228 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 15:51:53,261 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 15:52:28,930 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 15:52:38,384 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 15:52:41,973 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 15:52:49,022 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 15:53:34,026 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 15:53:37,683 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 15:53:45,631 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 15:53:45,633 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 15:54:00,637 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 15:56:27,411 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 15:56:31,192 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 16:31:15,891 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 16:31:15,896 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 16:31:20,965 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 16:32:02,892 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 16:32:11,675 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 16:32:14,842 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 16:32:20,020 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 16:33:05,023 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 16:33:09,049 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 16:33:17,838 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 16:33:17,839 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-12 16:33:32,841 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 16:34:21,613 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 16:34:24,760 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 16:35:18,391 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 16:35:18,393 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 16:35:23,410 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 16:35:43,943 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 16:35:43,944 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 16:35:48,956 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 16:36:31,381 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 16:36:40,279 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 16:36:40,280 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-04-12 16:36:55,281 [main] INFO PatientAppLogs - Launch Successfull
-2021-04-12 16:37:07,620 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 16:37:08,831 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 16:37:35,023 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 16:37:35,023 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 16:37:40,038 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 16:38:22,864 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 16:38:31,111 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 16:38:35,703 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 16:38:39,935 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 16:39:24,935 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 16:39:28,466 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 16:39:37,444 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 16:39:37,444 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-12 16:39:52,446 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 16:41:06,653 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 16:41:09,266 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 16:41:40,406 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 16:41:40,407 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 16:41:45,420 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 16:42:27,557 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 16:42:34,971 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 16:42:39,741 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 16:42:43,653 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 16:43:28,657 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 16:43:31,839 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 16:43:40,686 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 16:43:40,687 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-12 16:43:55,710 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 16:43:59,408 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 16:44:02,306 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:07:39,849 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:07:39,859 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:07:44,883 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:08:27,886 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:08:36,017 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:08:36,018 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-04-12 17:08:51,020 [main] INFO PatientAppLogs - Launch Successfull
-2021-04-12 17:09:03,311 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:09:04,503 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:09:31,491 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:09:31,492 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:09:36,514 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:10:18,785 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:10:26,346 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:10:30,896 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 17:10:34,225 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 17:11:19,228 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 17:11:23,724 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 17:11:31,436 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:11:31,437 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 17:11:46,439 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 17:14:05,192 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:14:07,853 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:14:38,677 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:14:38,678 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:14:43,687 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:15:26,221 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:15:33,703 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:15:39,088 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 17:15:41,812 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 17:16:26,815 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 17:16:31,068 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 17:16:39,926 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:16:39,927 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-12 17:16:54,930 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 17:16:58,144 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:17:00,852 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:17:27,439 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:17:27,440 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:17:32,452 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:17:32,452 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-04-12 17:17:47,454 [main] INFO PatientAppLogs - Launch Successfull
-2021-04-12 17:18:25,817 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:18:27,162 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:18:57,672 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:18:57,672 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:19:02,683 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:19:02,683 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-04-12 17:19:17,685 [main] INFO PatientAppLogs - Launch Successfull
-2021-04-12 17:20:01,687 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:20:03,111 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:22:03,401 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:22:03,408 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:22:08,429 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:22:48,821 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:22:55,782 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:22:55,785 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-04-12 17:23:10,789 [main] INFO PatientAppLogs - Launch Successfull
-2021-04-12 17:23:23,243 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:23:24,481 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:24:15,356 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:24:15,360 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:24:20,377 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:25:14,159 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:25:14,159 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:25:19,184 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:27:03,815 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:27:03,821 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:27:08,842 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:27:50,150 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:27:57,489 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:27:57,490 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-04-12 17:28:12,492 [main] INFO PatientAppLogs - Launch Successfull
-2021-04-12 17:28:24,339 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:28:25,800 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:28:54,175 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:28:54,175 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:28:59,193 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:29:41,716 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:29:49,105 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:29:53,993 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 17:29:57,689 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 17:30:42,696 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 17:30:47,162 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 17:30:55,901 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:30:55,926 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-12 17:31:10,932 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 17:32:54,482 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:32:57,140 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:33:31,112 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:33:31,113 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:33:36,125 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:34:20,668 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:34:29,107 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:34:34,567 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 17:34:37,592 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 17:35:22,595 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 17:35:25,593 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 17:35:35,443 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:35:35,444 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-12 17:35:50,447 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 17:35:53,560 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:35:55,629 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:36:24,426 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:36:24,426 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:36:29,438 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:36:29,438 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-04-12 17:36:44,440 [main] INFO PatientAppLogs - Launch Successfull
-2021-04-12 17:37:19,719 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:37:21,218 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:37:53,396 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:37:53,397 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:37:58,408 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:37:58,408 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
-2021-04-12 17:38:13,409 [main] INFO PatientAppLogs - Launch Successfull
-2021-04-12 17:38:57,247 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:38:58,715 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:39:30,701 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:39:30,703 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:39:35,712 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:40:18,781 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:40:25,865 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:40:28,737 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 17:40:34,169 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 17:41:19,172 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 17:41:24,036 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 17:41:31,228 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:41:31,229 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-12 17:41:46,231 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 17:42:07,148 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:42:08,619 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:42:34,649 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:42:34,649 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:42:39,662 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:43:22,702 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:43:29,911 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:43:34,344 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 17:43:37,124 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 17:44:22,127 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 17:44:25,609 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 17:44:34,171 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:44:34,171 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
-2021-04-12 17:44:49,173 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 17:48:15,592 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:48:18,395 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-12 17:48:47,301 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-12 17:48:47,302 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-12 17:48:52,313 [main] INFO PatientAppLogs - Launching Application
-2021-04-12 17:49:35,413 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-12 17:49:44,407 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:49:49,305 [main] INFO PatientAppLogs - Phone number entered
-2021-04-12 17:49:52,564 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-12 17:50:37,566 [main] INFO PatientAppLogs - OTP entered
-2021-04-12 17:50:41,811 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-12 17:50:50,016 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-12 17:50:50,016 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-12 17:51:05,020 [main] INFO PatientAppLogs - Login Successfull
-2021-04-12 17:55:27,133 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-12 17:55:30,067 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-13 14:42:44,024 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-13 14:42:44,094 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-13 14:42:49,148 [main] INFO PatientAppLogs - Launching Application
-2021-04-13 14:43:32,033 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-13 14:43:39,958 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-13 14:43:45,356 [main] INFO PatientAppLogs - Phone number entered
-2021-04-13 14:43:49,259 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-13 14:44:34,262 [main] INFO PatientAppLogs - OTP entered
-2021-04-13 14:44:38,312 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-13 14:44:47,259 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-13 14:44:47,260 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-13 14:45:02,261 [main] INFO PatientAppLogs - Login Successfull
-2021-04-13 14:47:04,726 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-13 14:47:04,736 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-13 14:47:09,772 [main] INFO PatientAppLogs - Launching Application
-2021-04-13 14:47:51,794 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-13 14:47:59,564 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-13 14:48:04,804 [main] INFO PatientAppLogs - Phone number entered
-2021-04-13 14:48:07,315 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-13 14:48:52,316 [main] INFO PatientAppLogs - OTP entered
-2021-04-13 14:48:57,714 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-13 14:49:07,343 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-13 14:49:07,346 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-13 14:49:22,349 [main] INFO PatientAppLogs - Login Successfull
-2021-04-13 14:51:41,326 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-13 14:51:43,052 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-13 14:57:49,957 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-13 14:57:49,969 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-13 14:57:54,989 [main] INFO PatientAppLogs - Launching Application
-2021-04-13 14:58:38,265 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-13 14:58:45,438 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-13 14:58:50,801 [main] INFO PatientAppLogs - Phone number entered
-2021-04-13 14:58:54,422 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-13 14:59:39,423 [main] INFO PatientAppLogs - OTP entered
-2021-04-13 14:59:43,817 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-13 14:59:52,299 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-13 14:59:52,302 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-13 15:00:07,321 [main] INFO PatientAppLogs - Login Successfull
-2021-04-13 15:02:03,191 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-13 15:02:05,367 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-13 15:08:39,601 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-13 15:08:39,610 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-13 15:08:44,654 [main] INFO PatientAppLogs - Launching Application
-2021-04-13 15:09:26,909 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-13 15:09:35,156 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-13 15:09:38,735 [main] INFO PatientAppLogs - Phone number entered
-2021-04-13 15:09:42,892 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-13 15:10:27,897 [main] INFO PatientAppLogs - OTP entered
-2021-04-13 15:10:31,912 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-13 15:10:41,049 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-13 15:10:41,052 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-13 15:10:56,056 [main] INFO PatientAppLogs - Login Successfull
-2021-04-13 15:13:14,917 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-13 15:13:16,874 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-15 11:06:06,997 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-15 11:06:07,193 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-15 11:06:12,222 [main] INFO PatientAppLogs - Launching Application
-2021-04-15 11:06:54,390 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-15 11:07:02,218 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:07:07,411 [main] INFO PatientAppLogs - Phone number entered
-2021-04-15 11:07:10,193 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-15 11:07:55,196 [main] INFO PatientAppLogs - OTP entered
-2021-04-15 11:07:59,751 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-15 11:08:09,099 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:08:09,100 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-15 11:08:24,102 [main] INFO PatientAppLogs - Login Successfull
-2021-04-15 11:08:28,851 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-15 11:08:30,533 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-15 11:09:02,270 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-15 11:09:02,271 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-15 11:09:07,280 [main] INFO PatientAppLogs - Launching Application
-2021-04-15 11:09:47,415 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-15 11:09:55,680 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:10:01,137 [main] INFO PatientAppLogs - Phone number entered
-2021-04-15 11:10:05,322 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-15 11:10:50,324 [main] INFO PatientAppLogs - OTP entered
-2021-04-15 11:10:54,789 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-15 11:11:02,448 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:11:02,451 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-15 11:11:17,453 [main] INFO PatientAppLogs - Login Successfull
-2021-04-15 11:13:06,233 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-15 11:13:08,711 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-15 11:19:05,389 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-15 11:19:05,399 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-15 11:19:10,422 [main] INFO PatientAppLogs - Launching Application
-2021-04-15 11:19:52,196 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-15 11:20:00,258 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:20:03,104 [main] INFO PatientAppLogs - Phone number entered
-2021-04-15 11:20:08,586 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-15 11:20:53,598 [main] INFO PatientAppLogs - OTP entered
-2021-04-15 11:20:58,138 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-15 11:21:06,726 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:21:06,728 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-15 11:21:21,731 [main] INFO PatientAppLogs - Login Successfull
-2021-04-15 11:23:34,573 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-15 11:23:39,521 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-15 11:24:05,855 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-15 11:24:05,855 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-15 11:24:10,868 [main] INFO PatientAppLogs - Launching Application
-2021-04-15 11:24:54,883 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-15 11:25:03,415 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:25:08,349 [main] INFO PatientAppLogs - Phone number entered
-2021-04-15 11:25:12,039 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-15 11:25:57,044 [main] INFO PatientAppLogs - OTP entered
-2021-04-15 11:26:00,123 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-15 11:26:08,922 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:26:08,923 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-15 11:26:23,924 [main] INFO PatientAppLogs - Login Successfull
-2021-04-15 11:28:27,112 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-15 11:28:28,749 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-15 11:44:10,405 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-15 11:44:10,413 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-15 11:44:15,446 [main] INFO PatientAppLogs - Launching Application
-2021-04-15 11:44:56,633 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-15 11:45:05,039 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:45:09,413 [main] INFO PatientAppLogs - Phone number entered
-2021-04-15 11:45:13,411 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-15 11:45:58,412 [main] INFO PatientAppLogs - OTP entered
-2021-04-15 11:46:03,158 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-15 11:46:11,932 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:46:11,934 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-15 11:46:26,936 [main] INFO PatientAppLogs - Login Successfull
-2021-04-15 11:46:32,682 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-15 11:46:35,864 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-15 11:48:12,277 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-15 11:48:12,284 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-15 11:48:17,312 [main] INFO PatientAppLogs - Launching Application
-2021-04-15 11:49:02,090 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-15 11:49:09,916 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:49:14,723 [main] INFO PatientAppLogs - Phone number entered
-2021-04-15 11:49:17,337 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-15 11:50:02,340 [main] INFO PatientAppLogs - OTP entered
-2021-04-15 11:50:05,599 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-15 11:50:15,118 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:50:15,119 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-15 11:50:30,123 [main] INFO PatientAppLogs - Login Successfull
-2021-04-15 11:50:46,563 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-15 11:50:56,589 [main] INFO PatientAppLogs - Screenshot captured
-2021-04-15 11:51:25,886 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\PatientAppStaging.apk
-2021-04-15 11:51:25,886 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
-2021-04-15 11:51:30,899 [main] INFO PatientAppLogs - Launching Application
-2021-04-15 11:52:14,251 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
-2021-04-15 11:52:22,072 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:52:27,206 [main] INFO PatientAppLogs - Phone number entered
-2021-04-15 11:52:30,442 [main] INFO PatientAppLogs - Clicked on Request OTP
-2021-04-15 11:53:15,445 [main] INFO PatientAppLogs - OTP entered
-2021-04-15 11:53:19,749 [main] INFO PatientAppLogs - Clicked on Verify number
-2021-04-15 11:53:28,160 [main] INFO PatientAppLogs - Alert Accepted
-2021-04-15 11:53:28,161 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
-2021-04-15 11:53:43,173 [main] INFO PatientAppLogs - Login Successfull
-2021-04-15 11:54:15,086 [main] INFO PatientAppLogs - Taking Screenshot
-2021-04-15 11:54:16,887 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 18:26:10,356 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 18:26:10,367 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 18:26:15,399 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 18:26:56,824 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 18:27:04,432 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:27:07,502 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 18:27:13,435 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 18:27:58,442 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 18:28:03,110 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 18:28:11,295 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:28:11,296 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 18:28:26,299 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 18:28:43,772 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 18:28:45,693 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 18:29:16,752 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 18:29:16,753 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 18:29:21,785 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 18:30:05,797 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 18:30:14,911 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:30:17,906 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 18:30:25,522 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 18:31:10,525 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 18:31:15,006 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 18:31:23,408 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:31:23,408 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 18:31:38,409 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 18:32:15,956 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 18:32:17,625 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 18:32:46,140 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 18:32:46,140 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 18:32:51,187 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 18:33:37,621 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 18:33:45,378 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:33:50,355 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 18:33:54,141 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 18:34:39,144 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 18:34:43,096 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 18:34:51,318 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:34:51,318 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 18:35:06,320 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 18:35:41,404 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 18:35:43,035 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 18:39:38,580 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 18:39:38,587 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 18:39:43,617 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 18:40:27,312 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 18:40:35,178 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:40:40,080 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 18:40:43,979 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 18:41:28,982 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 18:41:33,101 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 18:41:42,039 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:41:42,041 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 18:41:57,043 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 18:46:12,724 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 18:46:12,729 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 18:46:17,757 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 18:47:01,648 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 18:47:10,250 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:47:14,236 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 18:47:17,270 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 18:48:02,272 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 18:48:06,563 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 18:48:15,306 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:48:15,306 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 18:48:30,308 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 18:49:36,071 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 18:49:38,372 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 18:50:05,775 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 18:50:05,775 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 18:50:10,829 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 18:50:55,904 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 18:51:03,910 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:51:09,312 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 18:51:13,277 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 18:51:58,279 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 18:52:03,183 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 18:52:11,529 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 18:52:11,530 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 18:52:26,532 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 18:54:15,157 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 18:54:19,267 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 19:10:35,103 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 19:10:35,114 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 19:10:40,140 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 19:11:23,461 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 19:11:31,368 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:11:36,538 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 19:11:39,341 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 19:12:24,343 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 19:12:28,243 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 19:12:37,586 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:12:37,589 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 19:12:52,591 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 19:13:54,054 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 19:13:56,921 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 19:14:29,377 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 19:14:29,377 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 19:14:34,392 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 19:15:17,766 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 19:15:26,138 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:15:31,222 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 19:15:35,207 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 19:16:20,231 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 19:16:24,353 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 19:16:32,938 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:16:32,940 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 19:16:47,943 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 19:29:33,573 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 19:29:33,584 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 19:29:38,621 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 19:30:22,884 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 19:30:30,676 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:30:33,181 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 19:30:39,298 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 19:31:24,302 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 19:31:28,165 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 19:31:37,219 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:31:37,220 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 19:31:52,221 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 19:33:03,530 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 19:33:05,037 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 19:33:38,967 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 19:33:38,968 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 19:33:43,982 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 19:34:28,753 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 19:34:36,058 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:34:41,304 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 19:34:45,852 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 19:35:30,854 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 19:35:35,350 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 19:35:43,454 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:35:43,455 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 19:35:58,457 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 19:36:04,607 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 19:36:06,216 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 19:36:49,259 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 19:36:49,259 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 19:36:54,269 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 19:37:38,975 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 19:37:46,898 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:37:51,597 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 19:37:55,808 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 19:38:40,811 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 19:38:45,217 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 19:38:53,590 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:38:53,591 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 19:39:08,592 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 19:39:58,555 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 19:40:00,397 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 19:40:33,086 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 19:40:33,089 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 19:40:38,101 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 19:41:20,823 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 19:41:28,864 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:41:33,524 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 19:41:36,280 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 19:42:21,282 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 19:42:25,951 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 19:42:34,822 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:42:34,822 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 19:42:49,824 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 19:44:03,956 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 19:44:05,599 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-12 19:48:44,172 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 19:48:44,182 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 19:48:49,210 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 19:49:32,798 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 19:49:40,480 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:49:44,880 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 19:49:48,923 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 19:50:33,925 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 19:50:37,919 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 19:50:46,915 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:50:46,921 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 19:51:01,936 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 19:55:56,785 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-12 19:55:56,791 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-12 19:56:01,810 [main] INFO PatientAppLogs - Launching Application
+2021-05-12 19:56:46,017 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-12 19:56:53,303 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:56:58,427 [main] INFO PatientAppLogs - Phone number entered
+2021-05-12 19:57:02,645 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-12 19:57:47,655 [main] INFO PatientAppLogs - OTP entered
+2021-05-12 19:57:53,034 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-12 19:58:02,321 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-12 19:58:02,322 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-12 19:58:17,324 [main] INFO PatientAppLogs - Login Successfull
+2021-05-12 20:00:50,175 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-12 20:00:52,425 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 09:06:00,350 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 09:06:00,407 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 09:06:05,437 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 09:06:42,425 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 09:06:49,590 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:06:53,609 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 09:06:56,261 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 09:07:41,267 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 09:07:44,755 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 09:07:54,433 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:07:54,454 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
+2021-05-13 09:08:09,465 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 09:08:45,373 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 09:08:48,577 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 09:09:24,781 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 09:09:24,782 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 09:09:29,799 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 09:10:54,258 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 09:10:54,267 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 09:10:59,293 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 09:11:43,396 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 09:11:51,430 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:11:56,042 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 09:12:00,051 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 09:12:45,055 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 09:12:48,739 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 09:12:58,070 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:12:58,070 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 09:13:13,074 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 09:13:17,693 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 09:13:19,368 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 09:15:29,861 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 09:15:29,868 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 09:15:34,889 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 09:16:19,786 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 09:16:26,770 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:16:31,769 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 09:16:34,702 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 09:17:19,703 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 09:17:23,973 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 09:17:31,934 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:17:31,967 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 09:17:51,970 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 09:18:42,157 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 09:18:43,688 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 09:21:31,741 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 09:21:31,750 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 09:21:36,775 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 09:22:20,528 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 09:22:28,328 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:22:31,644 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 09:22:36,404 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 09:23:21,406 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 09:23:24,437 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 09:23:33,716 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:23:33,717 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 09:23:53,720 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 09:24:55,358 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 09:24:56,924 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 09:53:09,855 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 09:53:09,897 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 09:53:14,919 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 09:53:59,345 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 09:54:07,185 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:54:10,094 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 09:54:14,495 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 09:54:59,497 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 09:55:03,604 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 09:55:12,592 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 09:55:12,605 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 09:55:32,660 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 10:07:43,942 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 10:07:43,949 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 10:07:48,985 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 10:08:33,670 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 10:08:43,391 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:08:47,227 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 10:08:53,799 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 10:09:38,801 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 10:09:43,414 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 10:09:53,518 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:09:53,519 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 10:10:13,522 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 10:14:23,801 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 10:14:26,181 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 10:22:22,379 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 10:22:22,387 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 10:22:27,425 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 10:23:10,420 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 10:23:18,885 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:23:24,017 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 10:23:26,910 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 10:24:11,912 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 10:24:16,366 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 10:24:25,005 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:24:25,007 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 10:24:45,020 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 10:27:13,819 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 10:27:13,828 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 10:27:18,850 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 10:28:03,100 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 10:28:10,454 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:28:15,860 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 10:28:18,778 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 10:29:03,780 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 10:29:08,052 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 10:29:15,737 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:29:15,738 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 10:29:35,741 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 10:35:07,359 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 10:35:07,370 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 10:35:12,396 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 10:35:55,144 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 10:36:03,655 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:36:08,445 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 10:36:11,434 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 10:36:56,436 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 10:37:00,742 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 10:37:08,943 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:37:08,944 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 10:37:28,947 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 10:48:35,122 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 10:48:35,135 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 10:48:40,209 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 10:49:23,938 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 10:49:33,900 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:49:38,103 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 10:49:44,811 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 10:50:29,816 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 10:50:33,743 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 10:50:42,781 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:50:42,782 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 10:51:02,785 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 10:53:27,872 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 10:53:27,882 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 10:53:32,913 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 10:54:19,410 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 10:54:27,404 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:54:31,520 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 10:54:34,836 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 10:55:19,838 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 10:55:24,100 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 10:55:33,651 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 10:55:33,652 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 10:55:53,654 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 11:00:01,667 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 11:00:03,480 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 11:04:48,176 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 11:04:48,186 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 11:04:53,208 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 11:05:34,895 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 11:05:42,105 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 11:05:44,505 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 11:05:52,228 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 11:06:37,231 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 11:06:41,748 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 11:06:49,667 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 11:06:49,670 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 11:07:09,674 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 11:11:17,858 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 11:11:19,243 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 11:13:32,303 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 11:13:32,316 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 11:13:37,346 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 11:14:18,534 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 11:14:26,414 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 11:14:31,095 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 11:14:34,509 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 11:15:19,511 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 11:15:23,149 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 11:15:31,693 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 11:15:31,694 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
+2021-05-13 11:15:51,696 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 14:06:46,099 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 14:06:46,113 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 14:06:51,141 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 14:07:35,054 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 14:07:43,790 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:07:48,166 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 14:07:51,281 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 14:08:36,325 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 14:08:39,485 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 14:08:49,521 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:08:49,522 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 14:09:09,523 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 14:13:06,573 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 14:13:06,581 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 14:13:11,605 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 14:13:52,169 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 14:14:00,243 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:14:04,653 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 14:14:08,979 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 14:14:53,980 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 14:14:57,785 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 14:15:07,313 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:15:07,317 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 14:15:27,321 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 14:16:03,837 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 14:16:05,949 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 14:16:32,450 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 14:16:32,451 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 14:16:37,483 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 14:28:47,798 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 14:28:47,806 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 14:28:52,831 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 14:29:36,103 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 14:29:43,737 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:29:48,511 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 14:29:52,924 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 14:30:37,926 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 14:30:41,994 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 14:30:50,655 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:30:50,657 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 14:31:10,658 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 14:31:33,245 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 14:31:34,789 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 14:36:53,708 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 14:36:53,717 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 14:36:58,742 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 14:37:42,392 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 14:37:49,823 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:37:52,591 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 14:37:58,699 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 14:38:43,701 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 14:38:46,932 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 14:38:57,137 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:38:57,140 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 14:39:17,141 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 14:39:43,803 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 14:39:46,108 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 14:49:56,424 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 14:49:56,432 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 14:50:01,453 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 14:50:44,125 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 14:50:52,810 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:50:57,603 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 14:51:02,153 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 14:51:47,155 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 14:51:51,670 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 14:52:00,673 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:52:00,676 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 14:52:20,678 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 14:56:47,083 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 14:56:47,091 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 14:56:52,116 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 14:57:36,572 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 14:57:45,005 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:57:49,857 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 14:57:52,602 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 14:58:37,603 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 14:58:41,837 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 14:58:51,203 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 14:58:51,206 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 14:59:11,208 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 15:00:30,481 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 15:00:32,060 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 15:01:02,892 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 15:01:02,893 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 15:01:07,919 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 15:01:53,691 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 15:02:02,847 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:02:07,658 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 15:02:11,784 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 15:02:56,786 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 15:03:01,546 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 15:03:09,685 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:03:09,686 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 15:03:29,687 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 15:07:38,181 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 15:07:39,896 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 15:19:29,244 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 15:19:29,251 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 15:19:34,278 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 15:20:19,548 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 15:20:28,758 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:20:32,509 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 15:20:39,061 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 15:21:24,064 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 15:21:28,822 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 15:21:37,587 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:21:37,588 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 15:21:57,590 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 15:24:05,952 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 15:24:08,560 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 15:26:07,047 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 15:26:07,058 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 15:26:12,080 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 15:26:56,936 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 15:27:05,111 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:27:08,283 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 15:27:13,507 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 15:27:58,508 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 15:28:03,003 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 15:28:09,242 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:28:09,247 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 15:28:29,247 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 15:37:48,802 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 15:37:48,810 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 15:37:53,831 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 15:38:28,535 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 15:38:35,152 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:38:40,463 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 15:38:43,215 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 15:39:28,217 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 15:39:32,138 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 15:39:57,684 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:39:57,688 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 15:40:17,692 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 15:41:10,350 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 15:41:11,791 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 15:41:42,214 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 15:41:42,214 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 15:41:47,230 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 15:42:22,859 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 15:42:29,537 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:42:34,428 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 15:42:37,197 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 15:43:22,200 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 15:43:26,467 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 15:43:33,624 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:43:33,624 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
+2021-05-13 15:43:53,625 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 15:44:14,685 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 15:44:16,379 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 15:44:45,341 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 15:44:45,345 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 15:44:50,358 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 15:45:27,074 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 15:45:33,768 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:45:37,948 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 15:45:42,558 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 15:46:27,559 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 15:46:32,960 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 15:46:38,846 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:46:38,847 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
+2021-05-13 15:46:58,848 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 15:47:20,119 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 15:47:21,834 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 15:49:10,807 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 15:49:10,813 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 15:49:15,853 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 15:49:50,692 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 15:49:57,197 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:50:02,294 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 15:50:06,725 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 15:50:51,732 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 15:50:54,954 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 15:51:02,957 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:51:02,958 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
+2021-05-13 15:51:22,963 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 15:51:34,072 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 15:51:35,657 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 15:52:01,760 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 15:52:01,761 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 15:52:06,780 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 15:52:42,311 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 15:52:48,445 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:52:52,867 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 15:52:56,957 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 15:53:41,958 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 15:53:46,350 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 15:53:52,992 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 15:53:52,993 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
+2021-05-13 15:54:12,996 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 15:54:41,741 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 15:54:42,969 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 16:34:04,596 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 16:34:04,603 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 16:34:09,641 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 16:34:48,971 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 16:34:57,425 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 16:35:01,866 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 16:35:08,452 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 16:35:53,454 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 16:35:57,983 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 16:36:05,456 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 16:36:05,460 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 16:36:25,462 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 16:36:28,364 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 16:36:31,976 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 16:38:15,422 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 16:38:15,433 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 16:38:20,493 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 16:38:20,493 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
+2021-05-13 16:38:35,496 [main] INFO PatientAppLogs - Launch Successfull
+2021-05-13 16:39:08,045 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 16:39:09,534 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 16:39:38,506 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 16:39:38,508 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 16:39:43,529 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 16:39:43,529 [main] INFO PatientAppLogs - Time taken in App Launch in Emulator: 0 Minutes
+2021-05-13 16:39:58,531 [main] INFO PatientAppLogs - Launch Successfull
+2021-05-13 16:40:40,501 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 16:40:42,065 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 16:42:55,389 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 16:42:55,397 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 16:43:00,417 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 16:43:42,521 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 16:43:50,270 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 16:43:54,780 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 16:43:57,909 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 16:44:42,919 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 16:44:48,120 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 16:44:56,296 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 16:44:56,296 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 16:45:16,298 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 16:47:07,149 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 16:47:09,693 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 16:47:36,424 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 16:47:36,425 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 16:47:41,450 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 16:48:25,566 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 16:48:33,667 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 16:48:38,953 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 16:48:42,821 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 16:49:27,823 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 16:49:32,355 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 16:49:40,469 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 16:49:40,470 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 16:50:00,472 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 16:51:12,843 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 16:51:15,892 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 16:54:19,357 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 16:54:19,370 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 16:54:24,396 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 16:55:05,904 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 16:55:13,737 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 16:55:17,848 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 16:55:21,766 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 16:56:06,768 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 16:56:10,784 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 16:56:18,209 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 16:56:18,210 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 1 Minutes
+2021-05-13 16:56:38,212 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 17:02:31,578 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 17:02:31,591 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 17:02:36,628 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 17:03:20,213 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 17:03:28,556 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 17:03:33,659 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 17:03:37,723 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 17:04:22,725 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 17:04:27,347 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 17:04:35,363 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 17:04:35,364 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 17:04:55,364 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 17:05:56,367 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 17:05:58,953 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 17:06:31,927 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 17:06:31,928 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 17:06:36,944 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 17:07:20,884 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 17:07:29,429 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 17:07:34,177 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 17:07:37,714 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 17:08:22,716 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 17:08:25,859 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 17:08:34,955 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 17:08:34,956 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 17:08:54,958 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 17:11:13,734 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 17:11:15,755 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-13 17:13:28,859 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-13 17:13:28,875 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-13 17:13:33,938 [main] INFO PatientAppLogs - Launching Application
+2021-05-13 17:14:22,471 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-13 17:14:29,244 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 17:14:34,803 [main] INFO PatientAppLogs - Phone number entered
+2021-05-13 17:14:39,563 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-13 17:15:24,564 [main] INFO PatientAppLogs - OTP entered
+2021-05-13 17:15:28,574 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-13 17:15:37,281 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-13 17:15:37,282 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-13 17:15:57,283 [main] INFO PatientAppLogs - Login Successfull
+2021-05-13 17:18:40,492 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-13 17:18:45,642 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-14 20:25:03,119 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-14 20:25:03,131 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-14 20:25:08,166 [main] INFO PatientAppLogs - Launching Application
+2021-05-14 20:25:50,813 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-14 20:25:59,966 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-14 20:26:04,609 [main] INFO PatientAppLogs - Phone number entered
+2021-05-14 20:26:10,099 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-14 20:26:55,101 [main] INFO PatientAppLogs - OTP entered
+2021-05-14 20:26:58,226 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-14 20:27:08,974 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-14 20:27:08,974 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-14 20:27:28,979 [main] INFO PatientAppLogs - Login Successfull
+2021-05-14 20:28:27,248 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-14 20:28:29,870 [main] INFO PatientAppLogs - Screenshot captured
+2021-05-14 20:29:05,268 [main] INFO PatientAppLogs - Launching App, Apk version: C:\Users\admin\git\repository\PatientAppAutomation\Apk\Patient_11_may.apk
+2021-05-14 20:29:05,269 [main] INFO PatientAppLogs - Using Test Data Excel Sheet: PatientAppData.xlsx
+2021-05-14 20:29:10,293 [main] INFO PatientAppLogs - Launching Application
+2021-05-14 20:29:54,956 [main] INFO PatientAppLogs - Clicked on Skip button to proceed for login
+2021-05-14 20:30:03,648 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-14 20:30:08,781 [main] INFO PatientAppLogs - Phone number entered
+2021-05-14 20:30:12,953 [main] INFO PatientAppLogs - Clicked on Request OTP
+2021-05-14 20:30:57,955 [main] INFO PatientAppLogs - OTP entered
+2021-05-14 20:31:01,363 [main] INFO PatientAppLogs - Clicked on Verify number
+2021-05-14 20:31:11,059 [main] INFO PatientAppLogs - Alert Accepted
+2021-05-14 20:31:11,060 [main] INFO PatientAppLogs - Time taken in App Launch and login in Emulator: 2 Minutes
+2021-05-14 20:31:31,062 [main] INFO PatientAppLogs - Login Successfull
+2021-05-14 20:33:23,704 [main] INFO PatientAppLogs - Taking Screenshot
+2021-05-14 20:33:26,170 [main] INFO PatientAppLogs - Screenshot captured

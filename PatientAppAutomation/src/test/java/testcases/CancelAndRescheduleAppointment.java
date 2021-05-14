@@ -24,9 +24,10 @@ public class CancelAndRescheduleAppointment extends TestBase {
 	static long startTime;
 	static long endTime;
 	                                
-	String DocClinic="Dr Praveen Chauhan";
-	String SlotInClinic="10:30 AM";
-	String SlotVideo="10:40 AM";
+	String ClinicName="fortune hospital"; // For In-Clinic Appointments:  we need to use Clinic name.
+	String SlotInClinic="07:55 PM";
+	String SlotVideo="03:05 PM";
+	String Patient="Husain";
 	
 	@BeforeMethod      
 	public void setUp() throws MalformedURLException, InterruptedException   
@@ -45,11 +46,11 @@ public class CancelAndRescheduleAppointment extends TestBase {
 	driver.findElement(By.xpath("//android.widget.TextView[@index=1 and contains(@text,'Appointments')]")).click();
 	ExtentLogger.pass("Clicked on Appointment section");	
 	Thread.sleep(10000);
-	boolean a=	driver.findElements(By.xpath("//android.widget.TextView[contains(@text,'"+DocClinic+"')]")).size()>0;
+	boolean a=	driver.findElements(By.xpath("//android.widget.TextView[contains(@text,'"+ClinicName+"')]")).size()>0;
 	if(a==true) 
 	{
 	ExtentLogger.pass("In-clinic appointments are available");
-	driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'"+DocClinic+"')]")).click();
+	driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'"+ClinicName+"')]")).click();
 	ExtentLogger.pass("In-clinic Appointment selected");
 	Thread.sleep(10000);
 	driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Doctor\")"))).click();
@@ -63,7 +64,7 @@ public class CancelAndRescheduleAppointment extends TestBase {
     driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Booked wrong clinic\")"))).click();
     ExtentLogger.pass("Reason:Booked wrong clinic selected");
 	driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Yes\")"))).click();	
-	ExtentLogger.pass("In-clinincAppointment has been Cancelled");
+	ExtentLogger.pass("In-clininc Appointment has been Cancelled");
 	}
 	else
 	{
@@ -75,17 +76,17 @@ public class CancelAndRescheduleAppointment extends TestBase {
 	
 	
 	@FrameworkAnnotation(author= {"Husain"},category = CategoryType.CancelAndRescheduleAppointment)	
-	@Test(priority=2,enabled=false,description="Reschedule in clinic Appointment")
+	@Test(priority=2,enabled=true,description="Reschedule in clinic Appointment")
 	public void RescheduleInClinicAppointment() throws InterruptedException
 	{
 	ExtentLogger.pass("Reschedule an In-clinic appointment");	
 	driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Appointments\")"))).click();
 	ExtentLogger.pass("Clicked on Appointment section");
-	boolean a=	driver.findElements(By.xpath("//android.widget.TextView[contains(@text,'"+DocClinic+"')]")).size()>0;
+	boolean a=	driver.findElements(By.xpath("//android.widget.TextView[contains(@text,'"+ClinicName+"')]")).size()>0;
 	if(a==true) 
 	{
 	ExtentLogger.pass("In-clinic appointments are available");		
-	driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'"+DocClinic+"')]")).click();
+	driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'"+ClinicName+"')]")).click();
 	ExtentLogger.pass("In-clinic appointment selected");
 	Thread.sleep(5000);
 	ExtentLogger.pass("Scrolling now..");
@@ -97,7 +98,7 @@ public class CancelAndRescheduleAppointment extends TestBase {
 	driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+SlotInClinic+"\")"))).click();	                                     
 	ExtentLogger.pass("Slot selected");
 	Thread.sleep(5000);
-    driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Mohd Husain\")"))).click();	
+	driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+Patient+"\")"))).click();	
     ExtentLogger.pass("Patient selected from the list");
     driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"Reschedule\"))").click();	        
 	ExtentLogger.pass("In clinic appointment has been re-scheduled");
@@ -112,7 +113,7 @@ public class CancelAndRescheduleAppointment extends TestBase {
 	
 	
 	@FrameworkAnnotation(author= {"Husain"},category = CategoryType.CancelAndRescheduleAppointment)	
-	@Test(priority=3,enabled=true,description="Cancel Video Consultation")
+	@Test(priority=3,enabled=false,description="Cancel Video Consultation")
 	public void CancelVideoConsultation() throws InterruptedException
 	{		
 	ExtentLogger.pass("Cancel an video consultation");	
@@ -137,7 +138,7 @@ public class CancelAndRescheduleAppointment extends TestBase {
 	
 	
 	@FrameworkAnnotation(author= {"Husain"},category = CategoryType.CancelAndRescheduleAppointment)	
-	@Test(priority=4,enabled=true,description="Reschedule Video Consultation")
+	@Test(priority=4,enabled=false,description="Reschedule Video Consultation")
 	public void RescheduleVideoConsultation() throws InterruptedException
 	{
 	ExtentLogger.pass("Reschedule an Video Consultation");	
@@ -168,7 +169,7 @@ public class CancelAndRescheduleAppointment extends TestBase {
 	
 	driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().textContains(\""+SlotVideo+"\")"))).click();
 	ExtentLogger.pass("Slot selected");
-    driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Mohd Husain\")"))).click();	
+    driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+Patient+"\")"))).click();	
     ExtentLogger.pass("Patient selected from the list");
     driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"Submit\"))").click();	        
     ExtentLogger.pass("Submit button clicked");

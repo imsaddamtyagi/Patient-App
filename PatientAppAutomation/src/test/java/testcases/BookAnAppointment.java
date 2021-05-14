@@ -31,13 +31,14 @@ public class BookAnAppointment extends TestBase {
 	static long startTime;
 	static long endTime;
 	
-    String DocForInClinic ="Pargat";   
-    String DocInitialsClinic= "#971632";
-    String SlotForInClinic="10:00 AM";
+    String DocForInClinic="Simanto";   
+    String DocInitialsClinic="IDrts-987";
+    String SlotForInClinic="06:55 PM";
+    String Patient="Husain";
     
-    String DocForVideo="Pargat";
-    String DocInitialsVideo="#971632";
-    String SlotForVideo="11:00 AM";
+    String DocForVideo="Simanto";
+    String DocInitialsVideo="IDrts-987";
+    String SlotForVideo="05:00 PM";
 	
 	@BeforeMethod      
 	public void setUp() throws MalformedURLException, InterruptedException   
@@ -80,7 +81,7 @@ public class BookAnAppointment extends TestBase {
 			  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+SlotForInClinic+"\")"))).click();
 			  ExtentLogger.pass("Time Slot Selected");    
 			  Thread.sleep(5000);
-			  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Mohd Husain\")"))).click();	
+			  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+Patient+"\")"))).click();	
 			  ExtentLogger.pass("Patient Selected");
 			  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Submit\")"))).click();	 
 			  Thread.sleep(5000);
@@ -129,8 +130,8 @@ public class BookAnAppointment extends TestBase {
 		  ExtentLogger.pass("Video consultation is available");
 		  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+SlotForVideo+"\")"))).click();	
 		  ExtentLogger.pass("Slot Selected");     
-		  Thread.sleep(5000);			
-		  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Mohd Husain\")"))).click();	 
+		  Thread.sleep(5000);	
+		  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\""+Patient+"\")"))).click();	
 		  ExtentLogger.pass("Patient Selected");
     	  driver.findElement(MobileBy.AndroidUIAutomator(String.format("new UiSelector().text(\"Submit\")"))).click();	
     	  ExtentLogger.pass("Submit button clicked");
