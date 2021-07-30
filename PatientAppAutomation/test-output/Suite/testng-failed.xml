@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.FamilyMemberAndProfilePic">
+      <class name="testcases.JoinTwilioVideoConsultation">
         <methods>
-          <include name="TearDown"/>
-          <include name="AddProfilePic" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="JoinVideoConsultationTest"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- testcases.FamilyMemberAndProfilePic -->
+      </class> <!-- testcases.JoinTwilioVideoConsultation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

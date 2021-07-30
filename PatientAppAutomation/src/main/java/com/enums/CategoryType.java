@@ -17,7 +17,7 @@ public enum CategoryType {
 	Onboarding,
 	DoctorAndClinicSearch,
 	DoctorProfileDetailsTest,
-	JoinVideoConsultation,
+	JoinTwilioVideoConsultation,
 	NetworkStatus,
 	ShareDoctorProfile,
 	VerifyPatientEmail,
